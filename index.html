@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <!-- CSS Reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="jumbotron" id="jumbo-title">
+        <div class="container">
+            <h1>GifTastic</h1>
+        </div>
+    </div>
+
+    <!--Buttons-->
+    <div id="gifButtonsView" class="container">
+    </div>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <!-- Gifs Are Here-->
+            <div id="gifsViewer"></div>
+        </div>
+        <!-- GifTastic Form Submission-->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2>
+                    <legend>Tastic Submission</legend>
+                </h2>
+                <div class="form-group" id="formGroup">
+                    <label for="action-input">Add your selection below</label>
+                    <input type="text" id="tastic-input">
+                </div>
+                <input id="addGif" type="submit" style="background-color:rgb(176, 179, 189);color:cornsilk"
+                    value="GifTastic goes here" class="btn btn-primary"> <input id="removeGif" type="sumbit"
+                    style="background-color:rgb(176, 179, 189);color:cornsilk" value="Remove  Selection"
+                    class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="footer" class="container">
+            <h3 id="copyright">&copy; Copyright 2019 Darria Mills</h3>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
