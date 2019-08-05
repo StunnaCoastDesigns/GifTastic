@@ -17,6 +17,9 @@ body {
     background: rgb(147, 149, 172);
 }
 
+#gifButtonTopics {
+    color: cornsilk;
+}
 #formGroup {
     color:cornsilk;
 }

@@ -15,6 +15,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,31 +40,30 @@
         </div>
         <!-- GifTastic Form Submission-->
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-            <form id="gif-form" role="form">
+            <form id="gif-form">
                 <h2>
                     <legend>Tastic Topic Submission</legend>
                 </h2>
                 <div class="form-group" id="formGroup">
-                    <label for="topics-input">Add your selection below</label>
-                    <input type="text" id="topics-input">
+                    <label for="search-input">Add your selection below</label>
+                    <input type="text" id="search-input">
                 </div>
                 <input id="addGif" type="submit" style="background-color:rgb(176, 179, 189);color:cornsilk"
-                    value="GifTastic Topics go here" class="btn btn-primary"> <input id="removeGif" type="sumbit"
+                    value="AddGifTastic Topics" class="btn btn-primary"> <input id="removeGif" type="sumbit"
                     style="background-color:rgb(176, 179, 189);color:cornsilk" value="Remove  Selection"
                     class="btn btn-primary">
             </form>
         </div>
+        <div id="searches"></div>
     </div>
     <footer>
         <div id="footer" class="container">
             <h4 id="copyright">&copy; Copyright 2019 Darria Mills</h4>
         </div>
     </footer>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <!-- JavaScript -->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
 </body>
 
 </html>
